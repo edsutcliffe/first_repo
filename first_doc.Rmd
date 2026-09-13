@@ -9,12 +9,18 @@ output: pdf_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+I FORGOT TO ADD THIS LINE IN MY PREVIOUS COMMIT!!
+
 This report documents my first attempts of using Git and GitHub to version control an RStudio project. I will be modifying this report, staging and commiting changes and then pushing to GitHub.
 
 Let's create a test plot of distance (miles) and speed (mph).
 
 ```{r, test-plot}
-plot(cars, col = 'red', xlab = 'speed (mph)', ylab = 'distance (miles)')
+plot(cars, col = 'blue', xlab = 'speed (mph)', ylab = 'distance (miles)')
+```
+
+```{r, test-plot2}
+plot(cars$dist, dars$speed, col = 'blue', xlab = 'distance (miles)', ylab = 'speed (mph)')
 ```
 
 A summary of the data frame is given below
